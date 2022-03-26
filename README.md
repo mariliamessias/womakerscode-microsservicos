@@ -78,5 +78,5 @@ Tecnologias sugeridas:
 - [SpringCloud](https://spring.io/projects/spring-cloud)
 - [SpringSecurity](https://spring.io/projects/spring-security)
 - [Kong](https://konghq.com/kong/)
-- [Kubernets](hhttps://cloud.google.com/kubernetes-applications?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-SKWS-all-all-trial-e-dr-1011454-LUAC0016142&utm_content=text-ad-none-any-DEV_c-CRE_542427311513-ADGP_Hybrid%20%7C%20SKWS%20-%20EXA%20%7C%20Txt%20~%20Containers_Kubernetes-KWID_43700066034733163-kwd-105521201337&utm_term=KW_kubernetes-ST_Kubernetes&gclid=Cj0KCQjw8_qRBhCXARIsAE2AtRYMdo3loc2cg_MOGkNy24gfEtYMeju7b8s3qrWxGxDL5w2wiY598jUaAgisEALw_wcB&gclsrc=aw.ds)
+- [Kubernets](https://cloud.google.com/kubernetes-applications)
 - [Elastic](https://www.elastic.co/pt/)
