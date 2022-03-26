@@ -31,6 +31,52 @@ utilizadas (quais projetos Spring, forma de comunicação, etc)
 <li>Comunicar o estoque quando enviar os produtos via correios e transportadora</li>
 </ul>
 
-<h4>Desenho da arquitetura Cenário do monolito atual (in progress)</h4>
-<h4>Desenho da arquitetura Cenário de Solução Proposto:</h4>
+<h4>Desenho da arquitetura Cenário do monolito atual </h4>
+<p>(in progress)</p>
+</br>
 
+<h4>Cenário de microsserviços proposto:</h4>
+<ul>
+
+<li>fazer uma divisão dos microsserviços por subdomínio, e identifiquei os quatro seguintes: Compras, Vendas, Produtos e Pagamentos</li>
+
+<li>criar microsserviços bff que servirão de acesso aos tópicos correspondentes do fluxo.</li>
+
+<li>utilizar uma arquitetura assíncrona com recursos de tópicos e consumers, através dos recursos da AWS - SQS.</li>
+
+<li>Para alguns serviços de borda não bloqueantes, utilizei o recurso de requisições síncronas.</li>
+
+<li>Disponibilização de Jobs para reprocessamento em caso de falhas.</li>
+
+<li>Criação de bancos de dados isolados para cada microsserviço (SQL ou NoSQL).</li>
+
+<li>Garantir acesso as apis por intermédio de um API-Gateway.</li>
+
+<li>Utilizar os recursos de autenticação JWT para acesso as apis.</li>
+
+<li>Garantir a persistência e gerenciamento das configurações via ConfigServer e a interoperabilidade do Service Discovery via Kubernets.</li>
+
+<li>Permitir que consigamos ter a capacidade de observabilidade de todas as aplicações via ElasticStack.</li>
+
+</ul>
+
+<h4>Desenho da arquitetura Cenário de Solução Proposto:</h4>
+</br>
+
+<h1 align="center">
+    <img alt="spacetraveling" src="./desafio_marilia_messias.png" />
+</h1>
+
+Tecnologias sugeridas:
+
+- [SpringFramework](https://spring.io/)
+- [mySQL](https://www.mysql.com/)
+- [DynamoDB](https://aws.amazon.com/pt/dynamodb/)
+- [SQS](https://aws.amazon.com/pt/sqs/)
+- [Kotlin](https://kotlinlang.org/)
+- [SpringData](https://spring.io/projects/spring-data)
+- [SpringCloud](https://spring.io/projects/spring-cloud)
+- [SpringSecurity](https://spring.io/projects/spring-security)
+- [Kong](https://konghq.com/kong/)
+- [Kubernets](hhttps://cloud.google.com/kubernetes-applications?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-SKWS-all-all-trial-e-dr-1011454-LUAC0016142&utm_content=text-ad-none-any-DEV_c-CRE_542427311513-ADGP_Hybrid%20%7C%20SKWS%20-%20EXA%20%7C%20Txt%20~%20Containers_Kubernetes-KWID_43700066034733163-kwd-105521201337&utm_term=KW_kubernetes-ST_Kubernetes&gclid=Cj0KCQjw8_qRBhCXARIsAE2AtRYMdo3loc2cg_MOGkNy24gfEtYMeju7b8s3qrWxGxDL5w2wiY598jUaAgisEALw_wcB&gclsrc=aw.ds)
+- [Elastic](https://www.elastic.co/pt/)
