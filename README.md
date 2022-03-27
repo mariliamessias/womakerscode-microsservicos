@@ -32,8 +32,12 @@ utilizadas (quais projetos Spring, forma de comunicação, etc)
 </ul>
 
 <h4>Desenho da arquitetura Cenário do monolito atual </h4>
-<p>(in progress)</p>
 </br>
+<h1 align="center">
+    <img alt="spacetraveling" src="./monolito.drawio.png" />
+</h1>
+
+
 
 <h4>Cenário de microsserviços proposto:</h4>
 <ul>
