@@ -37,8 +37,6 @@ utilizadas (quais projetos Spring, forma de comunicação, etc)
     <img alt="spacetraveling" src="./monolito.drawio.png" />
 </h1>
 
-
-
 <h4>Cenário de microsserviços proposto:</h4>
 <ul>
 
@@ -65,7 +63,6 @@ utilizadas (quais projetos Spring, forma de comunicação, etc)
 </ul>
 
 <h4>Desenho da arquitetura Cenário de Solução Proposto:</h4>
-</br>
 
 <h1 align="center">
     <img alt="spacetraveling" src="./desafio_marilia_messias.png" />
