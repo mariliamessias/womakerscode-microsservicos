@@ -31,7 +31,7 @@ utilizadas (quais projetos Spring, forma de comunicação, etc)
 <li>Comunicar o estoque quando enviar os produtos via correios e transportadora</li>
 </ul>
 
-<h4>Desenho da arquitetura Cenário do monolito atual </h4>
+<h4>Desenho da arquitetura Cenário do monolito atual:</h4>
 </br>
 <h1 align="center">
     <img alt="spacetraveling" src="./monolito.drawio.png" />
